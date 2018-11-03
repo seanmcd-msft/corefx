@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <IgnoredReference Include="System.Private.CoreLib" />
+    <IgnoredReference Include="Windows" />
 
     <!-- Exclude shims from the closure verification -->
     <ExcludeFromClosure Include="mscorlib" />
@@ -45,6 +46,7 @@
         System.Private.Uri;
         System.Private.Xml;
         System.Private.Xml.Linq;
+        System.Runtime.WindowsRuntime;
         System.Security.AccessControl;
         System.Security.Cryptography.Cng;
         System.Security.Cryptography.OpenSsl;
